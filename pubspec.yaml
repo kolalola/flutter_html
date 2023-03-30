@@ -1,7 +1,7 @@
 name: flutter_html
 description: A Flutter widget rendering static HTML and CSS as Flutter widgets.
 version: 2.2.1
-homepage: https://github.com/Sub6Resources/flutter_html
+homepage:
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
@@ -28,7 +28,10 @@ dependencies:
   chewie_audio: '>=1.2.0 <2.0.0'
 
   # Plugin for rendering MathML
-  flutter_math_fork: '>=0.4.2+1 <1.0.0'
+  flutter_math_fork:
+    git:
+      url: https://github.com/kolalola/flutter_math_fork.git
+      ref: e1679fef7b7e10fd4e83a5b01e7e7c96bea56b49
 
   # plugin for firstWhereOrNull extension on lists
   collection: '>=1.15.0 <2.0.0'
