@@ -22,13 +22,10 @@ dependencies:
   chewie: '>=1.1.0 <2.0.0'
 
   # Plugin for rendering the <iframe> tag.
-  webview_flutter: '>=2.0.4 <3.0.0'
+  webview_flutter: 4.0.7
 
   # Plugins for rendering the <audio> tag.
   chewie_audio: '>=1.2.0 <2.0.0'
-
-  # Plugins for rendering the <svg> tag.
-  flutter_svg: '>=0.22.0 <1.0.0'
 
   # Plugin for rendering MathML
   flutter_math_fork: '>=0.4.2+1 <1.0.0'
@@ -41,6 +38,10 @@ dependencies:
 
   flutter:
     sdk: flutter
+
+dependency_overrides:
+  # Plugins for rendering the <svg> tag.
+  flutter_svg: 2.0.4
 
 dev_dependencies:
   flutter_test:
